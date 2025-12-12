@@ -1,0 +1,135 @@
+body {
+    font-family: 'Segoe UI', Arial;
+    background: linear-gradient(180deg,#0d1b2a,#1b263b 60%);
+    padding: 20px;
+    color: #e0e9ff;
+    margin: 0;
+}
+
+
+.header {
+    background: #0d47a1;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+}
+
+.header .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e3f2fd;
+}
+
+.nav a {
+    margin-left: 16px;
+    color: #bbdefb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+
+h1, h2, h3 {
+    color: #a9d6e5;
+}
+
+
+.btn {
+    background: #0077b6;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #0096c7;
+}
+
+.btn-edit {
+    background: #ffb703;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #023047;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.btn-edit:hover { background: #fb8500; }
+
+.btn-del {
+    background: #d62828;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+.btn-del:hover { background: #9d0208; }
+
+
+form {
+    margin-top: 20px;
+    background: #1b263b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.3);
+    max-width: 400px;
+}
+
+input, select {
+    display: block;
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #e0e9ff;
+}
+
+
+.buscador {
+    margin: 20px 0;
+}
+
+.buscador input {
+    width: 260px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+.card {
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+    transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0,0,0,.4);
+}
+
+
+.mensaje {
+    color: #ffb703;
+    margin-top: 20px;
+    font-size: 18px;
+}
